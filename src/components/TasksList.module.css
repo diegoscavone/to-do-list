@@ -1,0 +1,109 @@
+.container {
+  width: 736px;
+  /* margin-top: 4rem; */
+}
+.tasks {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 6.4rem 0 1.5rem;
+}
+
+.tasksList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.createdTasks,
+.completedTasks {
+  display: flex;
+  gap: 8px;
+}
+
+.createdTasks span,
+.completedTasks span {
+  font-weight: bold;
+}
+
+.createdTasks span:first-child {
+  color: var(--blue);
+}
+
+.createdTasks span:last-child {
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  padding: 2px 8px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.completedTasks span:last-child {
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  padding: 2px 8px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.completedTasks span:first-child {
+  color: var(--purple);
+}
+
+.form {
+  width: 736px;
+  margin-top: -2rem;
+}
+
+.form form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.form form > input {
+  height: 56px;
+  width: 100%;
+
+  background-color: var(--gray-500);
+  border: none;
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  padding: 1rem;
+
+  color: var(--gray-300);
+}
+
+.form form > button {
+  height: 52px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  border: none;
+  padding: 1rem;
+  background-color: var(--blue-dark);
+  border-radius: 8px;
+
+  font-weight: bold;
+  font-size: 0.875rem;
+  color: var(--gray-100);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.form form > button:hover {
+  background-color: var(--blue);
+}
+
+@media (max-width: 430px) {
+  .container {
+    width: 400px;
+  }
+  .form{
+    width: 100%;
+  }
+}

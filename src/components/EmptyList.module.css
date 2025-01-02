@@ -1,0 +1,23 @@
+.emptyList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 4rem;
+    border-radius: 8px;
+    
+    border-top: 1px solid var(--gray-400);
+}
+
+.emptyList span{
+    font-weight: bold;
+    margin-bottom: -1rem;
+}
+
+@media (max-width: 430px) {
+    .emptyList span, .emptyList p{
+        text-align: center;
+    }
+  }
+  
