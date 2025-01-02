@@ -2,40 +2,19 @@
 ![Preview](https://github.com/diegoscavone/to-do-list/blob/main/src/assets/preview.jpg)
 
 
-O FoodExplorer é o projeto final do Curso Explorer da Rocketseat. Trata-se de um cardápio digital para um restaurante fictício, projetado para proporcionar uma experiência intuitiva e eficiente tanto para os clientes quanto para os administradores do restaurante. Com o FoodExplorer, os clientes podem visualizar as opções do menu, enquanto os administradores têm a capacidade de gerenciar o conteúdo do cardápio.
-
-A aplicação foi desenvolvida usando as mais recentes tecnologias web, garantindo uma interface moderna e responsiva.
-
-Você pode acessar o projeto hospedado no seguinte link: [FoodExplorer](https://foodexplorerscavone.netlify.app/)
-
-* [Frontend](https://github.com/diegoscavone/foodexplorer-web)
+Este é um projeto desenvolvido no Ignite da Rocketseat, focado em construir uma aplicação de lista de tarefas (Todo List) utilizando React. A aplicação permite aos usuários criar, marcar como concluídas e excluir tarefas de maneira simples e eficiente.
 
 
+## 👨🏻‍💻 Funcionalidades
 
-## 👨🏻‍💻 Deploy
-
-Para acessar a aplicação, utilize as credenciais abaixo:
-
-`Administrador`
-
-- Email: admin@email.com
-- Senha: 102030
-
-
-`Usuário Comum`
-- Email: user@email.com
-- Senha: 102030
-
-Essas credenciais permitem que você experimente tanto o lado administrativo quanto o lado do cliente da aplicação.
-
+* Adicionar tarefas: Permite ao usuário adicionar novas tarefas à lista.
+* Marcar tarefas como concluídas: O usuário pode marcar as tarefas como concluídas, o que altera a sua aparência.
+* Excluir tarefas: O usuário pode excluir tarefas da lista a qualquer momento.
 
 ## 🚀 Tecnologias
 
-* Axios
-* React
-* React-router
-* React-icons
-* Styled-components
-* Vite.js
-* Node.js
+* React: Biblioteca JavaScript para a construção da interface de usuário.
+* TypeScript: Linguagem que traz tipagem estática e maior segurança ao código.
+* CSS Modules: Técnica de escopo de CSS para evitar conflitos de estilos entre componentes.
+* Lucide React: Conjunto de ícones para enriquecer a interface com ícones personalizados.
 
