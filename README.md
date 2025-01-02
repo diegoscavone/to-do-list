@@ -1,5 +1,5 @@
 
-![Preview]([https://github.com/diegoscavone/to-do-list/blob/master/src/assets/preview.jpg](https://github.com/diegoscavone/to-do-list/blob/main/src/assets/preview.jpg))
+![Preview](https://github.com/diegoscavone/to-do-list/blob/main/src/assets/preview.jpg)
 
 
 O FoodExplorer é o projeto final do Curso Explorer da Rocketseat. Trata-se de um cardápio digital para um restaurante fictício, projetado para proporcionar uma experiência intuitiva e eficiente tanto para os clientes quanto para os administradores do restaurante. Com o FoodExplorer, os clientes podem visualizar as opções do menu, enquanto os administradores têm a capacidade de gerenciar o conteúdo do cardápio.
